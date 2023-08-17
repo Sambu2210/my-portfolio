@@ -146,6 +146,7 @@ section{
 #porfile{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
     height: 80vh;
 }
@@ -157,7 +158,7 @@ section{
     font-weight: 600;
 }
 
-.section_text_top {
+.section_text_info {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -167,7 +168,7 @@ section{
 
 .section_pic img{
     border-radius: 50%;
-    width: 300px;
+    width: 400px;
 }
 .social-container{
     display: flex;
@@ -220,4 +221,84 @@ section{
 }
 .btn-container{
     gap: 1rem;
+}
+
+/* ABOUT SECTION */
+
+#about{
+    position: relative;  
+}
+#about .section-container{
+    display: flex;
+    align-items: center;
+}
+.headding{
+    text-align: center;
+}
+.about-container{
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.about-container{
+    display: flex;
+}
+.about-pic{
+    border-radius: 2rem;
+}
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+.section_pic-containerP{
+    height: 400px;
+    width: 400px;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience{
+    position: relative;
+}
+.experience-sub-title{
+    color: rgb(85,85,85);
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.article-container{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+.article .icon{
+    cursor: default;
 }
